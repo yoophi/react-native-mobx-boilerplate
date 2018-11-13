@@ -4,3 +4,4 @@ npm-debug.*
 assets/images/demo.sketch
 .DS_Store
 .vscode/settings.json
+.idea/*
