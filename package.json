@@ -17,6 +17,7 @@
     "moment": "^2.22.2",
     "moment-duration": "0.0.6",
     "moment-duration-format": "^2.2.2",
+    "prettier": "^1.15.2",
     "react": "^16.5.0",
     "react-native": "github:expo/react-native#sdk-29.0.0",
     "react-native-globalize": "^2.1.0",

@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import { withTheme } from 'styled-components';
-import styled from 'styled-components/native';
+import React, { Component } from "react";
+import { withTheme } from "styled-components";
+import styled from "styled-components/native";
 
 const ButtonContainer = styled.TouchableHighlight`
   width: 130;
   height: 40;
-  backgroundColor: ${props=> props.theme.CYAN};
-  borderRadius: 5;
-  justifyContent: center;
-  alignItems: center;
+  background-color: ${props => props.theme.CYAN};
+  border-radius: 5;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Text = styled.Text`
-  fontSize: 20;
+  font-size: 20;
   color: ${props => props.theme.VIVIDWHITE};
 `;
 
@@ -21,10 +21,7 @@ class Button extends Component {
     const { text, onPress, theme } = this.props;
 
     return (
-      <ButtonContainer
-        underlayColor={theme.CYAN}
-        onPress={onPress}
-      >
+      <ButtonContainer underlayColor={theme.CYAN} onPress={onPress}>
         <Text>{text}</Text>
       </ButtonContainer>
     );

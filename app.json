@@ -22,18 +22,18 @@
     "android": {
       "package": "com.mycompany.mypackage",
       "versionCode": 1,
-      "config" : {
-        "googleMaps" : {
-          "apiKey" : "ADD YOUR GOOGLE MAPS API KEY HERE IF USING THAT API"
+      "config": {
+        "googleMaps": {
+          "apiKey": "ADD YOUR GOOGLE MAPS API KEY HERE IF USING THAT API"
         }
       }
     },
-    "androidStatusBar" : {
-      "barStyle" : "light-content",
-      "backgroundColor" : "#000000"
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "background-color": "#000000"
     },
-    "splash" : {
-      "backgroundColor" : "#000000",
+    "splash": {
+      "background-color": "#000000",
       "image": "./assets/images/splash.png",
       "resizeMode": "contain"
     }

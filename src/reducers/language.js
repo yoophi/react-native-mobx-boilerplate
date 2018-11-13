@@ -1,19 +1,17 @@
-import {
-	LANGUAGE_CHANGE,
-  } from '../actions/types';
+import { LANGUAGE_CHANGE } from "../actions/types";
 
-  const INITIAL_STATE = {
-	language: 'en',
-  };
+const INITIAL_STATE = {
+  language: "en"
+};
 
-  const Language = (state = INITIAL_STATE, action) => {
-	switch (action.type) {
-	  case LANGUAGE_CHANGE:
-		return Object.assign({}, state, {
-			language: action.payload.language,
-		  });
-	  default:
-		return state;
-	}
+const Language = (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    case LANGUAGE_CHANGE:
+      return Object.assign({}, state, {
+        language: action.payload.language
+      });
+    default:
+      return state;
   }
-  export default Language;
+};
+export default Language;
